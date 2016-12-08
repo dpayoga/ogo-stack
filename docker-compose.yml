@@ -2,7 +2,8 @@ version: "2"
 
 services:
 
-  image: jenkins
+  service: jenkins
+  images: jenkins
   container_name: jenkins
   volumes:
     - ./jenkins_data:/var/jenkins_home
